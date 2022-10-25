@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_settings",
+  "info": {
+    "singularName": "general-setting",
+    "pluralName": "general-settings",
+    "displayName": "general-setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Spotify": {
+      "type": "string"
+    },
+    "Youtube": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "AppleMusic": {
+      "type": "string"
+    },
+    "Organization": {
+      "type": "string"
+    },
+    "Deezer": {
+      "type": "string"
+    },
+    "ArtistName": {
+      "type": "string"
+    }
+  }
+}

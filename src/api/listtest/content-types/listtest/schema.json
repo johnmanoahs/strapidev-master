@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "listtests",
+  "info": {
+    "singularName": "listtest",
+    "pluralName": "listtests",
+    "displayName": "listtest"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "listname": {
+      "type": "string"
+    }
+  }
+}

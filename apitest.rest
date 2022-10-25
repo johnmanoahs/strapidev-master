@@ -1,0 +1,25 @@
+GET http://localhost:1337/api/albums
+
+###
+POST http://localhost:1337/api/email-signups
+Content-Type: application/json
+
+{
+  "data":{
+    "email": "test@test.com"
+  }
+
+}
+
+###
+POST http://localhost:1337/api/leads
+Content-Type: application/json
+
+{
+  "data":{
+    "name": "Test name",
+    "email": "test@test.",
+    "message": "Hello, test message",
+    "date": "2020-07-10 15:00:00.000"
+  }
+}

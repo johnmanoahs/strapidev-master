@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BookTitle": {
+      "type": "string"
+    },
+    "BookImageFrontCover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BookImageBackCover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BookDescription": {
+      "type": "text"
+    },
+    "AmazonPurchaseLink": {
+      "type": "string"
+    },
+    "PurchaseLink": {
+      "type": "string"
+    },
+    "VideoTrailerLink": {
+      "type": "string"
+    },
+    "ReleaseDate": {
+      "type": "date"
+    },
+    "AuthorName": {
+      "type": "string"
+    },
+    "ISBN": {
+      "type": "string"
+    }
+  }
+}
